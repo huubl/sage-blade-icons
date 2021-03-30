@@ -32,3 +32,11 @@ if (! function_exists('app')) {
         return Roots\app($abstract, $parameters);
     }
 }
+
+if (! function_exists('resource_path')) {
+
+    function resource_path($path = '')
+    {
+        return Roots\resource_path($path);
+    }
+}
